@@ -40,6 +40,7 @@ Overview
     tree-build
     traversal
     fmm
+    dual-tree
     lookup
     cost
     distributed
