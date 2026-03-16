@@ -33,6 +33,8 @@ from boxtree.tree_of_boxes import (
     refine_tree_of_boxes,
     uniformly_refine_tree_of_boxes,
 )
+from boxtree.dual_tree_fmm import drive_dual_tree_fmm
+from boxtree.dual_tree_traversal import DualTreeTraversalEngine
 
 
 __all__ = [
@@ -42,8 +44,10 @@ __all__ = [
     "TreeKind",
     "TreeOfBoxes",
     "TreeWithLinkedPointSources",
+    "DualTreeTraversalEngine",
     "box_flags_enum",
     "coarsen_tree_of_boxes",
+    "drive_dual_tree_fmm",
     "make_meshmode_mesh_from_leaves",
     "make_tree_of_boxes_root",
     "refine_and_coarsen_tree_of_boxes",
